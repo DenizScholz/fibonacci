@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Fibonacci</title>
     <link rel="stylesheet" href="main.css" >
+    <link rel="icon" href="check-mark.png">
   </head>
   <body>
     <div class="container">
@@ -15,15 +16,18 @@
         <p>Please enter a number:</p>
         <div class="formcontainer">
           <div class="numberField">
-            <input type="text" name="number" id="number"><br>
+            <input type="text" name="number" id="number" class="inputnumberfield"><br>
           </div>
           <div class="numberField">
-            <button type="button" name="button" onclick="initFibo()">Run</button>
+            <button type="button" name="button" onclick="initFibo()" class="inputnumberfield">Run</button>
           </div>
         </div>
 
         <p id='result'></p>
+        <p id='timetaken'></p>
       </div>
+
+      <p>Created by Deniz Scholz</p>
     </div>
     <script src="index.js"></script>
   </body>
