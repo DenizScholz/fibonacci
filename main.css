@@ -1,0 +1,52 @@
+body {
+  background-color: #2D2D30;
+  color: rgb(255,255,255,0.8);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  background-color: #252526;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 15px;
+}
+
+.fibo-container {
+  background-color: #252526;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 0;
+  width: 70%;
+  text-align: center;
+}
+
+.fibo-container h3{
+  padding: 15px;
+}
+
+.numberField {
+  padding: 10px;
+}
+
+p {
+  padding: 10px;
+}
+
+
+.formcontainer {
+  padding: 10px;
+}
