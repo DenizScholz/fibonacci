@@ -46,3 +46,17 @@ function initFibo() {
   document.getElementById("timetaken").style.padding = "20px";
   document.getElementById("timetaken").style.color = "rgb(255,255,255,0.5)";
 }
+
+// Get the input field
+var input = document.getElementById("number");
+
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Cancel the default action, if needed
+  event.preventDefault();
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Trigger the button element with a click
+    document.getElementById("button").click();
+  }
+});
